@@ -14,5 +14,5 @@ import (
 
 func main() {
 	fmt.Println(version.GetVersion().JSONString())
-	fmt.Println(version.GetVersionString())
+	fmt.Println(version.GetVersion().VersionString())
 }

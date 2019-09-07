@@ -32,6 +32,9 @@ func (p *Version) JSONString() string {
 	}
 	return ""
 }
+func (p *Version) VersionString() string {
+	return pkgVersion.AppModVersion
+}
 
 func GetVersion() *Version {
 	var q = *pkgVersion
